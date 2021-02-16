@@ -1,4 +1,4 @@
-package eu.neoaren.counter;
+package eu.neoaren.exercise_3_1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
