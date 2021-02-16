@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     // Handle ListView initialization and item clicks
     public void initializeListView() {
         ListView lv = findViewById(R.id.presidents);
-        ArrayList<President> presidents = GlobalModel.getInstance().presidents;
+        ArrayList<President> presidents = GlobalModel.getInstance().getPresidents();
         lv.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, presidents));
         lv.setOnItemClickListener((AdapterView<?> adapterView, View view, int i, long l) -> {
             Log.d(TAG, "Selected president id: " + i);

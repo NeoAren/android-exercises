@@ -33,6 +33,6 @@ presidents.add(new President("Niinistö, Sauli Väinämö", 2012, 2024, "Owner o
 
 ### Useful resources
 
-- [Using an ArrayAdapter with ListView](https://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
 - [ListView](https://developer.android.com/reference/android/widget/ListView)
+- [Using an ArrayAdapter with ListView](https://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
 - [Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern)

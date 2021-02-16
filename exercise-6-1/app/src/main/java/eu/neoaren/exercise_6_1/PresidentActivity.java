@@ -28,7 +28,7 @@ public class PresidentActivity extends AppCompatActivity {
         TextView presidentIncumbency = findViewById(R.id.president_incumbency);
         TextView presidentDescription = findViewById(R.id.president_description);
         if (presidentId != -1) {
-            President president = GlobalModel.getInstance().presidents.get(presidentId);
+            President president = GlobalModel.getInstance().getPresident(presidentId);
             presidentName.setText(president.getName());
             presidentIncumbency.setText(president.getIncumbency());
             presidentDescription.setText(president.getDescription());

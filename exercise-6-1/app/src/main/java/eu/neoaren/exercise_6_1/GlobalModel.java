@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class GlobalModel {
 
     // President list
-    public ArrayList<President> presidents;
+    private final ArrayList<President> presidents;
 
     // Singleton instance
     private static final GlobalModel singleton = new GlobalModel();
@@ -31,6 +31,16 @@ public class GlobalModel {
     // Get singleton instance
     public static GlobalModel getInstance() {
         return GlobalModel.singleton;
+    }
+
+    // Get all presidents
+    public ArrayList<President> getPresidents() {
+        return this.presidents;
+    }
+
+    // Get president by id
+    public President getPresident(int presidentId) {
+        return this.presidents.get(presidentId);
     }
 
 }
