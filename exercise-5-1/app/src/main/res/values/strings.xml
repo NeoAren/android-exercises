@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exercise–5–1</string>
+    <string name="hitme_button">HIT ME!</string>
+    <string name="reset_button">Reset</string>
+    <string name="created_counter">Created</string>
+    <string name="started_counter">Started</string>
+    <string name="hit_counter">Hit</string>
+    <string name="counter_initial_value">0</string>
+</resources>
