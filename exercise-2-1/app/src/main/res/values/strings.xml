@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Exercise–2–1</string>
+    <string name="username_field">Enter your username</string>
+    <string name="password_field">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="image_alt">Avatar</string>
+    <string name="header">Welcome back!</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="switch_to_dark_mode">Switch to dark mode?</string>
+</resources>
