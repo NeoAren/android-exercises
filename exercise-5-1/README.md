@@ -7,7 +7,7 @@ Create an application with the following features:
 3. Create a "Reset" button which resets all counters to zero.
 4. The values of these counters must be saved to the `SharedPreferences` on the `onPause()` method and retrieved from the `SharedPreferences` on the `onCreate()` method.
 
-Make sure that the value of the counters are preserved even if you close the application.
+**NB!** Make sure that the values of the counters are preserved even if you close the application.
 
 ### Expected layout
 
