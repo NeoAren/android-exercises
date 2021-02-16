@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exercise-4-1</string>
+    <string name="name">Enter name</string>
+    <string name="age">Enter age</string>
+    <string name="button_send">SEND</string>
+    <string name="info">Hello %1$s, you are %2$d years old.</string>
+</resources>
